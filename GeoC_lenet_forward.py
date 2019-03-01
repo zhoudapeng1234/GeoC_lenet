@@ -7,7 +7,7 @@ CONV1_KERNAL_NUM = 32
 CONV2_SIZE = 5
 CONV2_KERNAL_NUM = 64
 FC_SIZE  = 512
-OUTPUT_NODE = 73
+OUTPUT_NODE = 74
 
 def get_weight(shape, regularizer):
     w = tf.Variable(tf.truncated_normal(shape, stddev=0.1))
