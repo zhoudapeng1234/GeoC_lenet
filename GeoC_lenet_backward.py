@@ -3,7 +3,7 @@ import GeoC_lenet_forward, utils
 import os
 import sys
 
-BATCH_SIZE = 10
+BATCH_SIZE = 100
 LEARNING_RATE_BASE = 0.005
 LEARNING_RATE_DECAY = 0.99
 REGULARIZER = 0.0001
